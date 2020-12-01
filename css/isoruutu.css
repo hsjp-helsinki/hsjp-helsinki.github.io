@@ -14,11 +14,20 @@ footer {
 }
 
 header {
-	background-image: url("../kuvia/ylatunniste.png");
-	background-repeat: no-repeat;
 	margin: 0px;
 	height: 110px;
 	padding: 0px;
+}
+
+td.header {
+	color: darkgrey;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px black;
+	font-family: Helvetica, sans-sefir;
+	font-weight: bold;
+	padding-top: 35px;
+	background-image: url("../kuvia/ylatunniste.png");
+	background-repeat: no-repeat;
 }
 
 p.header {
