@@ -17,6 +17,34 @@ header {
 	/*height: 110px;
 	padding: 0px;
 	margin: 0px;*/
+	height: 110px;
+	background: url("../kuvia/ylatunniste.jpg") no-repeat center;
+	background-clip: content-box;
+	background-size: cover;
+	/* padding-top: 35px; */
+}
+
+h1.header {
+	color: darkgrey;
+	font-size: 2.5em;
+	text-shadow: 2px 2px 6px black;
+	font-family: Helvetica, sans-sefir;
+	font-weight: bold;
+	font-weight: bold;
+	padding-top: 45px;
+}
+
+img.header {
+	float: left;
+	height: 110px;
+	width: 100px;
+}
+
+table.header {
+	background: url("../kuvia/ylatunniste.jpg") no-repeat center;
+	background-clip: content-box;
+	background-size: cover;
+	width: 100%;
 }
 
 td.header {
@@ -26,8 +54,7 @@ td.header {
 	font-family: Helvetica, sans-sefir;
 	font-weight: bold;
 	padding-top: 35px;
-	background-image: url("../kuvia/ylatunniste.png");
-	background-repeat: no-repeat;
+	border: 2px;
 }
 
 main {
