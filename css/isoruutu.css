@@ -89,14 +89,21 @@ div.tweet {
 
 figure {
 	margin-left: 1%;
+	margin-right: 1%;
 }
 
 figcaption {
 	font-style: italic;
 }
 
-embed {
+embed.video {
 	margin-left: 1%;
+	margin-right: 1%;
+	width: 100%;
+	max-width: 560px;
+	height: 315px;
+	frameborder: 0;
+	allow:"accelerometer" "autoplay" "clipboard-write" "encrypted-media" "gyroscope" "picture-in-picture";
 }
 
 /*
